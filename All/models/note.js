@@ -1,4 +1,3 @@
-  
 var mongoose = require("mongoose");
 
 // Savesto the Schema constructor
