@@ -14,14 +14,14 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
-  // This populate thes Article with an associated Note
+  // This populates thes Article with an associated Note
   note: {
     type: Schema.Types.ObjectId,
     ref: "Note"
   }
 });
 
-// This creates our model from the  schema
+// This creates a model from the  schema
 var Article = mongoose.model("Article", ArticleSchema);
 
 // Export the Article model
